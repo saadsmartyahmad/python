@@ -1,0 +1,187 @@
+whai is python 
+python is general purpose high level programminng language
+genneral purpose means we can used for web application for destop applicaton game application we can used python.
+and python is very sample and easy like c and java 
+and the first code of python is 
+
+print("hello world")
+
+this is the first code of python and print is a bulit in function in python provided by python language by using this function we can print anything in consloe and we can take either double code sing le code and tripple code no problem
+
+python is high level programming language means that we are not doing any low level activity in python like were the memory is allocated that why its callec as high level programming language
+
+and the main topic is its a platoform independent language we have to wite one code and used this code at any platform because it produce bytecode write once rum any where
+
+and pyhton is dynamically type programming language 
+means we have not declared the type explixity 
+like c and java type for example
+coding
+class Test{
+	public static void main(String args []){
+		int a=10;
+		this is we can decalred type implicity 
+		}
+}
+and like python we are not declared type explicity
+python code
+a=10;
+this is called 
+dynamically programming language
+and the most important point is we are not compile code expilicity like java
+for example 
+imaging Test file is there and ther is a class Test then we have to compile code first and then run in java
+pracitically example java language
+javac Test.java this is the code first we have to complie 
+then we have to run code command is 
+java Test -----> this is the commad for run code
+
+identifier in python
+a name in pyton programming is called identifier like class name variable name and method name for example
+a=20
+this a is identifier
+more example
+123_Software its not complie because identifier not start with number
+code in python
+123_software="software"
+print(123_software)
+output in python language
+
+File "<string>", line 3
+123_software="software"
+       ^
+SyntaxError: invalid decimal literal
+
+and the correct vesion is 
+software_123="software"
+print(software_123)
+out will be software 
+
+reserved wor in pythoon 
+there are 33 reserved word in python except True False and None all are small letter except this
+like import is a keyword if elif else global def True False None for while all are keyword in python
+
+data type in  python 
+
+there are 14 data type in python 
+int float str complex bool list tuple set dict byte range all are predefine data type in python mens python give this data type 
+and inbuilt funtion in python first type it retun whta typr of data type is it
+
+for example
+type()
+code 
+
+a=10
+print(type(a))
+output
+
+<class 'int'>
+and ther is another function is there it check the id 
+id()
+code;;;;
+a=10
+b=10
+
+print(a is b)
+print(id(a))
+print(id(b))
+
+output
+
+True
+9789280
+9789280
+another print() function is there the most important funtion by using this we have to print a value
+
+code
+print('hello world')
+by using this function output will be show in console
+hello world output
+
+in bool data type internally bool data type condtain 1 and0
+for example
+a=True
+print(a)
+print(type(a))
+output
+a=True
+print(a)
+print(type(a))
+
+a=True
+print(a)
+print(type(a))
+
+and string data type in python 
+we can represent string means str data type in double code
+for example
+a="software"
+print(a)
+output
+software 
+more important topic is also there we can represent string str in double quotes even triple code also do and even single code also do
+for example coding part
+
+
+a="software"
+b='software'
+c='''software'''
+print(a,b,c)
+
+output
+
+software software  software
+index in str string data type
+for example 
+
+s='software solution'
+print(len(s))
+output
+17
+code for string data type
+
+s='software'
+print(len(s))
+print(s[2])
+# reverse string logic in python
+
+print(s[-1:-(len(s)+1):-1])
+
+output will be
+
+8
+f
+erawtfos
+
+
+type conversion in python
+ example and coding for type conversion in python
+a="10"
+print(int(a))
+print(float(a))
+print(bool(a))
+output
+
+10
+10.0
+True
+
+Type conversion for float data type 
+a="10.0"
+print(int(float(a)))
+print(float(a))
+print(bool(a))
+output
+10
+10
+True
+List data type list data type in python
+In python list is inbuilt data type int python if we want to represent group f object In a single entity then we go for list data type where duplicate value allow insertion order preserved homogenous value allow and growable in nature we can add something or we can remover something 
+
+Practical code for list data type
+l=[]
+print(type(l))
+empty list
+output
+<class 'list'>
+                                                                                                    	
+
