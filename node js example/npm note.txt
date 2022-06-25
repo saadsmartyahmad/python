@@ -1,0 +1,15 @@
+Npm stands for Node Package Manager. It is a package manager for the Node JavaScript platform.
+
+Npm is known as the world’s largest software registry. Open-source developers all over the world use npm to publish and share their source code.
+
+Npm consists of three components:
+
+The website allows you to find third-party packages, set up profiles, and manage your packages.
+The command-line interface or npm CLI that runs from a terminal to allow you to interact with npm.
+The registry is a large public database of JavaScript code.
+
+for example 
+npm 
+npm -v
+
+
